@@ -1,0 +1,30 @@
+[
+    {
+        "username": "admin",
+        "password_hash": "0ce77525678820d329898a8ade1fed0b:6b365ec39c8d7a3d691ce035b546a63b2bee307101c0990a83fed42ce505dac8",
+        "email": "admin@example.com",
+        "role": "admin",
+        "created_at": "2024-03-21T18:23:26.084606"
+    },
+    {
+        "username": "selim",
+        "password_hash": "42766209fec15c03a005ad7751baedfd:de7696297d1c30c1c3e1b15262bd02017d6427342f442a3eb86d60678a138abd",
+        "email": "s@gmail.com",
+        "role": "user",
+        "created_at": "2025-05-31T18:35:03.924858"
+    },
+    {
+        "username": "esmik",
+        "password_hash": "eafefbf4c1773be775c4c89c0e0b016e:627e814c0ac662c5ba36d5c6a918cf74b5503292f6f4cae375f787b14e598231",
+        "email": "e@gmail.com",
+        "role": "user",
+        "created_at": "2025-05-31T18:35:03.924858"
+    },
+    {
+        "username": "b\u00fc\u015fra",
+        "password_hash": "c0188e6e4fc8e6e714d05e820acf64bd:363cf444c47bed3a3496ca3fcca05ef8cea3f62df009a772d9cff8cbea3977a0",
+        "email": "busrasuna.1@gmail.com",
+        "role": "user",
+        "created_at": "2025-06-02T21:02:54.848162"
+    }
+]
