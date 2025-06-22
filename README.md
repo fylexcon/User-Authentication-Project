@@ -22,56 +22,61 @@ Follow the steps below to run this project locally:
 ```bash
 git clone https://github.com/fylexcon/User-Authentication-Project.git
 cd User-Authentication-Project
-### 2. Set up the backend (Python)
-## Create a virtual environment
-
+2. Set up the backend (Python)
+Create a virtual environment
+bash
+Kopyala
+Düzenle
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-
-##Install dependencies
-
+Install dependencies
+bash
+Kopyala
+Düzenle
 pip install -r requirements.txt
-
-##Run the backend server
-
+Run the backend server
+bash
+Kopyala
+Düzenle
 # For FastAPI
 uvicorn main:app --reload
 
 # Or for Flask
 flask run
-
-### 3. Set up the frontend (if applicable)
+3. Set up the frontend (if applicable)
 Skip this step if you're only working on the backend.
 
-##Navigate to the frontend directory
-
+Navigate to the frontend directory
+bash
+Kopyala
+Düzenle
 cd frontend
-# Install Node.js dependencies
-
+Install Node.js dependencies
+bash
+Kopyala
+Düzenle
 npm install
-
-#Start the frontend
-
+Start the frontend
+bash
+Kopyala
+Düzenle
 npm run dev
+4. Access the application
+Backend API: http://localhost:8000
 
+Frontend: http://localhost:5173
 
-### 4. Access the application
-
-##Backend API: http://localhost:8000
-
-##Frontend: http://localhost:5173 (or depending on your dev server config)
-
-####📝 Environment Variables
+📝 Environment Variables
 Create a .env file in the project root and configure your environment variables:
 
+env
+Kopyala
+Düzenle
+SECRET_KEY=your_secret_key
+DATABASE_URL=sqlite:///./your_db_file.db
+❗️ Make sure not to commit your .env file to version control.
 
-
-#SECRET_KEY=your_secret_key
-#DATABASE_URL=sqlite:///./your_db_file.db
-#Make sure not to commit your .env file to version control.
-
-####📄 License
+📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 🙌 Contributions
